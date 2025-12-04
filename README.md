@@ -1,6 +1,11 @@
-# Ever Green Real Estate
+# Camila Desotti - Corretora de Imóveis
 
-Site para corretor de imóveis com design moderno e minimalista, baseado no tema "Ever Green Architex".
+Site profissional para corretora de imóveis com design moderno e minimalista. CRECI-MT 18961.
+
+**Corretora:** Camila Desotti  
+**CRECI-MT:** 18961  
+**Atuação:** Grupo Gransinop e Gruposinop  
+**Empreendimentos:** DUOTTORI | GRAN HALL | SAVIA
 
 ## 🚀 Tecnologias
 
@@ -55,5 +60,12 @@ O site utiliza uma paleta de cores baseada em tons de verde escuro:
 
 ## 📝 Notas
 
-Este é um projeto frontend apenas. Os dados dos imóveis estão mockados no arquivo `src/App.jsx`. Para produção, você precisará integrar com uma API backend.
+Este é um projeto frontend apenas. Os dados dos empreendimentos estão mockados no arquivo `src/App.jsx`. Para produção, você precisará integrar com uma API backend.
+
+## 👤 Informações da Corretora
+
+- **Nome:** Camila Desotti
+- **CRECI-MT:** 18961
+- **Grupos:** Grupo Gransinop e Gruposinop
+- **Empreendimentos:** DUOTTORI, GRAN HALL, SAVIA
 

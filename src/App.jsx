@@ -44,7 +44,7 @@ import {
 
 
 
-// --- MOCK DATA (Dados de Exemplo) ---
+// --- EMPREENDIMENTOS DO PORTFÓLIO ---
 
 const PROPERTIES = [
 
@@ -52,23 +52,23 @@ const PROPERTIES = [
 
     id: 1,
 
-    title: "Casa Jardim Botânico",
+    title: "DUOTTORI",
 
-    price: "R$ 1.250.000",
+    price: "Consulte valores",
 
-    location: "Zona Sul",
+    location: "Sinop - MT",
 
-    type: "Casa",
+    type: "Empreendimento",
 
-    beds: 3,
+    beds: 0,
 
-    baths: 3,
+    baths: 0,
 
-    area: "180m²",
+    area: "Variados",
 
     image: "https://images.unsplash.com/photo-1600596542815-2495db98dada?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
 
-    description: "Casa recém construída com acabamento de alto padrão. Possui área gourmet integrada, piscina aquecida e sistema de automação."
+    description: "Empreendimento de alto padrão com arquitetura moderna e acabamentos refinados. Localização privilegiada em Sinop."
 
   },
 
@@ -76,23 +76,23 @@ const PROPERTIES = [
 
     id: 2,
 
-    title: "Loft Compacto",
+    title: "GRAN HALL",
 
-    price: "R$ 480.000",
+    price: "Consulte valores",
 
-    location: "Centro",
+    location: "Sinop - MT",
 
-    type: "Apartamento",
+    type: "Empreendimento",
 
-    beds: 1,
+    beds: 0,
 
-    baths: 1,
+    baths: 0,
 
-    area: "45m²",
+    area: "Variados",
 
     image: "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
 
-    description: "Ideal para investidores ou solteiros. Prédio com coworking, lavanderia e academia completa."
+    description: "Grandeza e sofisticação em cada detalhe. Um empreendimento que representa o melhor em qualidade de vida."
 
   },
 
@@ -100,47 +100,23 @@ const PROPERTIES = [
 
     id: 3,
 
-    title: "Cobertura Duplex",
+    title: "SAVIA",
 
-    price: "R$ 2.800.000",
+    price: "Consulte valores",
 
-    location: "Orla",
+    location: "Sinop - MT",
 
-    type: "Cobertura",
+    type: "Empreendimento",
 
-    beds: 4,
+    beds: 0,
 
-    baths: 5,
+    baths: 0,
 
-    area: "320m²",
+    area: "Variados",
 
-    image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    image: "/savialogo.png",
 
-    description: "Exclusividade total. Cobertura com terraço privativo, churrasqueira e vista eterna para o mar."
-
-  },
-
-  {
-
-    id: 4,
-
-    title: "Refúgio na Serra",
-
-    price: "R$ 950.000",
-
-    location: "Serra",
-
-    type: "Casa",
-
-    beds: 3,
-
-    baths: 2,
-
-    area: "150m²",
-
-    image: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-
-    description: "Segurança 24h e lazer completo para sua família. Casa com quintal amplo."
+    description: "Modernidade e conforto em um projeto arquitetônico único. O lugar ideal para você e sua família."
 
   }
 
@@ -220,9 +196,9 @@ export default function RealEstateWebsite() {
 
           <h1 className={`text-xl font-bold ${Theme.textMain} tracking-tighter uppercase leading-none`}>
 
-            EVER GREEN<br/>
+            CAMILA<br/>DESOTTI
 
-            <span className="text-xs font-normal tracking-widest opacity-70">REAL ESTATE</span>
+            <span className="text-xs font-normal tracking-widest opacity-70 block mt-1">CRECI-MT 18961</span>
 
           </h1>
 
@@ -412,7 +388,7 @@ export default function RealEstateWebsite() {
 
             <div className={`aspect-square ${Theme.bgCard} p-8 flex flex-col justify-between group hover:bg-[#2F453B] transition duration-500 border border-[#2A3C32]`}>
 
-              <h3 className="text-2xl font-bold text-white">Floating<br/>Homes</h3>
+              <h3 className="text-2xl font-bold text-white">DUOTTORI</h3>
 
               <div className="flex justify-end">
 
@@ -454,7 +430,7 @@ export default function RealEstateWebsite() {
 
             <div className={`aspect-square ${Theme.bgCard} p-8 flex flex-col justify-between group hover:bg-[#2F453B] transition duration-500 border border-[#2A3C32]`}>
 
-               <h3 className="text-2xl font-bold text-white">French<br/>Country</h3>
+               <h3 className="text-2xl font-bold text-white">GRAN<br/>HALL</h3>
 
                <div className="flex justify-end">
 
@@ -492,7 +468,7 @@ export default function RealEstateWebsite() {
 
             <div className={`aspect-square ${Theme.bgCard} p-8 flex flex-col justify-between group hover:bg-[#2F453B] transition duration-500 border border-[#2A3C32]`}>
 
-               <h3 className="text-2xl font-bold text-white">Modern<br/>Cottage</h3>
+               <h3 className="text-2xl font-bold text-white">SAVIA</h3>
 
                <div className="flex justify-end">
 
@@ -568,7 +544,7 @@ export default function RealEstateWebsite() {
 
              <p className="text-[#8A9A90] max-w-sm self-end">
 
-               Liderando o caminho na criação de experiências imobiliárias únicas para nossos clientes.
+               Atuando para Grupo Gransinop e Gruposinop, oferecendo soluções imobiliárias de excelência em Sinop e região.
 
              </p>
 
@@ -770,7 +746,7 @@ export default function RealEstateWebsite() {
 
            <button onClick={() => setView('home')} className="text-white/50 hover:text-white"><ArrowRight className="rotate-180" /></button>
 
-           <h2 className="text-3xl text-white font-bold uppercase">Imóveis Disponíveis</h2>
+           <h2 className="text-3xl text-white font-bold uppercase">Empreendimentos</h2>
 
         </div>
 
@@ -832,7 +808,30 @@ export default function RealEstateWebsite() {
 
   // DETALHE DO IMÓVEL (Minimalista)
 
-  const PropertyDetailView = () => (
+  const PropertyDetailView = () => {
+    const [mapLoading, setMapLoading] = useState(true);
+    const [zoomPosition, setZoomPosition] = useState({ x: 0, y: 0 });
+    const [isZooming, setIsZooming] = useState(false);
+
+    // Pré-carregar o iframe do mapa quando for SAVIA
+    useEffect(() => {
+      if (selectedProp?.title === "SAVIA") {
+        setMapLoading(true);
+        // Pré-carregar o iframe criando um elemento temporário
+        const link = document.createElement('link');
+        link.rel = 'prefetch';
+        link.href = 'https://app.vistahub.com/share/1fd46802-fec7-44a6-980f-c47222ca64c1?feature=sattelite&coordinate=-11.845900913215091,-55.49435899097763&zoom=19&rotation=0';
+        document.head.appendChild(link);
+        
+        return () => {
+          if (document.head.contains(link)) {
+            document.head.removeChild(link);
+          }
+        };
+      }
+    }, [selectedProp]);
+
+    return (
 
     <div className={`min-h-screen ${Theme.bgMain} text-white`}>
 
@@ -874,9 +873,25 @@ export default function RealEstateWebsite() {
 
 
 
-      <div className="container mx-auto px-6 py-12 grid grid-cols-1 lg:grid-cols-3 gap-12">
+      <div className="container mx-auto px-6 py-12">
 
-        <div className="lg:col-span-2">
+        <div className="max-w-4xl">
+
+          {/* Seção de Conceito - Apenas para SAVIA */}
+          {selectedProp.title === "SAVIA" && (
+            <div className="mb-16">
+              <h2 className="text-4xl md:text-5xl font-light text-white mb-6 leading-tight">
+                A natureza vista<br/>
+                <span className="font-bold">de outro ângulo.</span>
+              </h2>
+              <p className="text-lg text-[#8A9A90] leading-relaxed mb-4">
+                Não é preciso escolher entre estar na cidade ou viver perto do verde.
+              </p>
+              <p className="text-lg text-[#8A9A90] leading-relaxed">
+                O paisagismo do Savia devolve protagonismo à flora local e estende o frescor no horizonte com vista para o Parque Florestal.
+              </p>
+            </div>
+          )}
 
           <p className="text-lg text-[#8A9A90] leading-relaxed mb-12">
 
@@ -886,7 +901,7 @@ export default function RealEstateWebsite() {
 
 
 
-          <div className="grid grid-cols-3 gap-6 border-t border-[#3A4F44] pt-8">
+          <div className="grid grid-cols-3 gap-6 border-t border-[#3A4F44] pt-8 mb-12">
 
             <div>
 
@@ -914,31 +929,167 @@ export default function RealEstateWebsite() {
 
           </div>
 
-        </div>
 
 
+          {/* Seção de Localização Expandida - Apenas para SAVIA */}
+          {selectedProp.title === "SAVIA" && (
+            <div className="border-t border-[#3A4F44] pt-12 mb-12">
+              <h3 className="text-2xl font-bold text-white uppercase mb-6">Localização</h3>
+              <div className="mb-8">
+                <h4 className="text-xl font-light text-white mb-4">
+                  Próximo do essencial,<br/>
+                  <span className="font-bold">cercado pelo natural.</span>
+                </h4>
+                <p className="text-[#8A9A90] leading-relaxed">
+                  O Savia floresce entre o Setor Industrial Norte e o Jardim Primaveras, um dos bairros mais tradicionais de Sinop. A poucos minutos do colégio, do supermercado e da principal avenida, conecta você a tudo o que importa.
+                </p>
+              </div>
+            </div>
+          )}
 
-        <div className={`p-8 ${Theme.bgCard} border border-[#3A4F44] h-fit`}>
+          {/* Seção do Mapa - Apenas para SAVIA */}
 
-          <h3 className="text-xl font-bold mb-6 uppercase">Interessado?</h3>
+          {selectedProp.title === "SAVIA" && (
 
-          <button className="w-full bg-white text-[#1B2B23] py-4 rounded-full font-bold uppercase text-xs mb-4 hover:bg-[#D4E6D8] transition">
+            <div className="border-t border-[#3A4F44] pt-12 mb-12">
 
-            Agendar Visita
+              <div className="w-full h-[600px] md:h-[700px] rounded-sm overflow-hidden border border-[#3A4F44] relative">
 
-          </button>
+                {/* Loading Skeleton */}
+                {mapLoading && (
+                  <div className="absolute inset-0 bg-[#25382F] flex items-center justify-center z-10">
+                    <div className="text-center">
+                      <div className="w-16 h-16 border-4 border-[#3A4F44] border-t-white rounded-full animate-spin mx-auto mb-4"></div>
+                      <p className="text-[#8A9A90] text-sm uppercase tracking-wider">Carregando mapa...</p>
+                    </div>
+                  </div>
+                )}
 
-          <button 
+                <iframe
 
-             onClick={() => navigateTo('contact')}
+                  src="https://app.vistahub.com/share/1fd46802-fec7-44a6-980f-c47222ca64c1?feature=sattelite&coordinate=-11.845900913215091,-55.49435899097763&zoom=19&rotation=0"
 
-             className="w-full border border-[#3A4F44] text-white py-4 rounded-full font-bold uppercase text-xs hover:bg-[#2F453B] transition"
+                  width="100%"
 
-          >
+                  height="100%"
 
-            Enviar Mensagem
+                  style={{ border: 0, opacity: mapLoading ? 0 : 1, transition: 'opacity 0.3s ease-in-out' }}
 
-          </button>
+                  allowFullScreen
+
+                  loading="eager"
+
+                  referrerPolicy="no-referrer-when-downgrade"
+
+                  title="Localização SAVIA"
+
+                  allow="xr-spatial-tracking; accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+
+                  onLoad={() => {
+                    // Pequeno delay para garantir que o mapa está totalmente renderizado
+                    setTimeout(() => setMapLoading(false), 500);
+                  }}
+
+                />
+
+              </div>
+
+            </div>
+
+          )}
+
+          {/* Seção de Áreas Comuns - Apenas para SAVIA */}
+          {selectedProp.title === "SAVIA" && (
+            <div className="border-t border-[#3A4F44] pt-12">
+              <h3 className="text-2xl font-bold text-white uppercase mb-6">Áreas Comuns</h3>
+              
+              <p className="text-[#8A9A90] leading-relaxed mb-8 max-w-3xl">
+                A natureza integra o Savia por completo. As áreas comuns expandem o lazer de casa com ambientes planejados para que a rotina seja leve, prazerosa e, acima de tudo, em harmonia com o que te faz bem.
+              </p>
+
+              {/* Layout: Legenda à esquerda, Imagem à direita */}
+              <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
+                {/* Legenda numérica textual */}
+                <div className="lg:col-span-1 space-y-2 text-sm">
+                  <div className="text-[#8A9A90]">1. Piscina com Deck</div>
+                  <div className="text-[#8A9A90]">2. Academia Interna</div>
+                  <div className="text-[#8A9A90]">3. Academia Externa</div>
+                  <div className="text-[#8A9A90]">4. Quadra de Areia</div>
+                  <div className="text-[#8A9A90]">5. Quadra Poliesportiva</div>
+                  <div className="text-[#8A9A90]">6. Quiosques</div>
+                  <div className="text-[#8A9A90]">7. Floreiras</div>
+                  <div className="text-[#8A9A90]">8. Pet Place</div>
+                  <div className="text-[#8A9A90]">9. Pet Care</div>
+                  <div className="text-[#8A9A90]">10. Salão de Festas</div>
+                  <div className="text-[#8A9A90]">11. Espaço Gourmet</div>
+                  <div className="text-[#8A9A90]">12. Espaço Pizza</div>
+                  <div className="text-[#8A9A90]">13. Bar Lounge</div>
+                  <div className="text-[#8A9A90]">14. Brinquedoteca</div>
+                  <div className="text-[#8A9A90]">15. Playground Coberto</div>
+                  <div className="text-[#8A9A90]">16. E-Games</div>
+                  <div className="text-[#8A9A90]">17. Sala de Jogos</div>
+                  <div className="text-[#8A9A90]">18. Beauty e Massagem</div>
+                  <div className="text-[#8A9A90]">19. Market</div>
+                  <div className="text-[#8A9A90]">20. Coworking</div>
+                  <div className="text-[#8A9A90]">21. Sala de Reuniões</div>
+                  <div className="text-[#8A9A90]">22. Sala de Leitura</div>
+                  <div className="text-[#8A9A90]">+ Bicicletário / Garagem</div>
+                </div>
+
+                {/* Imagem do Blueprint - sem borda com efeito de lupa */}
+                <div 
+                  className="lg:col-span-2 rounded-sm overflow-hidden relative cursor-zoom-in"
+                  onMouseEnter={() => setIsZooming(true)}
+                  onMouseLeave={() => setIsZooming(false)}
+                  onMouseMove={(e) => {
+                    const rect = e.currentTarget.getBoundingClientRect();
+                    const x = ((e.clientX - rect.left) / rect.width) * 100;
+                    const y = ((e.clientY - rect.top) / rect.height) * 100;
+                    setZoomPosition({ x, y });
+                  }}
+                >
+                  <div className="overflow-hidden">
+                    <img 
+                      src="/saviablueprinttop.png" 
+                      alt="Planta das Áreas Comuns SAVIA" 
+                      className="w-full h-auto transition-transform duration-200 ease-out"
+                      style={{
+                        transform: isZooming ? `scale(2)` : 'scale(1)',
+                        transformOrigin: `${zoomPosition.x}% ${zoomPosition.y}%`
+                      }}
+                    />
+                  </div>
+                  {/* Overlay indicador de zoom */}
+                  {!isZooming && (
+                    <div className="absolute top-4 right-4 bg-black/50 backdrop-blur-sm px-3 py-1.5 rounded-full">
+                      <span className="text-white text-xs uppercase tracking-wider">Passe o mouse para ampliar</span>
+                    </div>
+                  )}
+                </div>
+              </div>
+            </div>
+          )}
+
+          {/* Seção CTA - Interessado? - Compacta no final */}
+          <div className="border-t border-[#3A4F44] pt-12 mt-12">
+            <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+              <div>
+                <h3 className="text-2xl font-bold text-white uppercase mb-2">Interessado?</h3>
+                <p className="text-[#8A9A90] text-sm">Entre em contato e agende sua visita</p>
+              </div>
+              <div className="flex flex-col sm:flex-row gap-4 w-full md:w-auto">
+                <button className="bg-white text-[#1B2B23] px-8 py-3 rounded-full font-bold uppercase text-xs hover:bg-[#D4E6D8] transition whitespace-nowrap">
+                  Agendar Visita
+                </button>
+                <button 
+                  onClick={() => navigateTo('contact')}
+                  className="border border-[#3A4F44] text-white px-8 py-3 rounded-full font-bold uppercase text-xs hover:bg-[#2F453B] transition whitespace-nowrap"
+                >
+                  Enviar Mensagem
+                </button>
+              </div>
+            </div>
+          </div>
 
         </div>
 
@@ -946,7 +1097,8 @@ export default function RealEstateWebsite() {
 
     </div>
 
-  );
+    );
+  };
 
 
 
@@ -1000,7 +1152,7 @@ export default function RealEstateWebsite() {
 
       <div className="container mx-auto">
 
-        <h2 className="text-5xl text-white font-bold uppercase mb-12">Sobre Nós</h2>
+        <h2 className="text-5xl text-white font-bold uppercase mb-12">Sobre</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 
@@ -1014,11 +1166,31 @@ export default function RealEstateWebsite() {
 
             </p>
 
-            <p className="text-white font-light">
+            <p className="text-white font-light mb-6">
 
-              Especialistas no mercado de alto padrão, trazemos uma abordagem curatorial para o mercado imobiliário. Menos volume, mais qualidade. Menos burocracia, mais design e experiência.
+              Camila Desotti, corretora de imóveis CRECI-MT 18961, especializada em oferecer soluções imobiliárias de excelência. Atuando para <strong className="text-white">Grupo Gransinop</strong> e <strong className="text-white">Gruposinop</strong>, represento os melhores empreendimentos do mercado.
 
             </p>
+
+            <div className="border-t border-[#3A4F44] pt-6">
+
+              <p className="text-sm text-[#8A9A90] uppercase tracking-widest mb-2">Portfólio de Empreendimentos</p>
+
+              <div className="flex flex-wrap gap-4">
+
+                <span className="text-white font-light">DUOTTORI</span>
+
+                <span className="text-[#8A9A90]">•</span>
+
+                <span className="text-white font-light">GRAN HALL</span>
+
+                <span className="text-[#8A9A90]">•</span>
+
+                <span className="text-white font-light">SAVIA</span>
+
+              </div>
+
+            </div>
 
           </div>
 
@@ -1042,7 +1214,7 @@ export default function RealEstateWebsite() {
 
          <h1 className="text-[12vw] font-bold text-[#25382F] leading-none uppercase select-none">
 
-           EVER GREEN
+           CAMILA DESOTTI
 
          </h1>
 
@@ -1056,7 +1228,7 @@ export default function RealEstateWebsite() {
 
          </div>
 
-         <p className="mt-12 text-[#3A4F44] text-xs">© 2024 Ever Green Real Estate.</p>
+         <p className="mt-12 text-[#3A4F44] text-xs">CRECI-MT 18961 | © 2024 Camila Desotti.</p>
 
        </div>
 
